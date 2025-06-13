@@ -1,0 +1,102 @@
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 88px 20px;
+  text-align: center;
+}
+
+/* Header Section */
+.services-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.services-intro h3 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.services-intro p {
+  max-width: 636px;
+  margin: 10px auto;
+  color: #1f2937;
+}
+
+/* Grid Layout: 3 cards per row */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Service Cards */
+.service-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Icon */
+.service-icon {
+  font-size: 2.5rem;
+  color: #a991f2;
+  margin-bottom: 10px;
+}
+
+/* Service Title */
+.service-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+/* Service Description */
+.service-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design: 2 cards per row on tablets */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive Design: 1 card per row on mobile */
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 83px 20px;
+    text-align: center;
+  }
+}
+
+@media (width : 1024px) {
+  .services {
+    position: relative;
+    left: 38px;
+  }
+}

@@ -1,0 +1,128 @@
+.services1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Header Section */
+.services-header1 {
+  text-align: center;
+  margin-top: 73px;
+}
+
+.services-header1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.services-intro1 h3 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.services-intro1 p {
+  max-width: 636px;
+  margin: 10px auto;
+  color: #1f2937;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Service Cards */
+.service-cards {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.service-cards:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Icon */
+.service-icon {
+  font-size: 2.5rem;
+  color: #a991f2;
+  margin-bottom: 10px;
+}
+
+.service-icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service-cards h3 {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.service-cards p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+/* Responsive Design: 2 cards per row on tablets */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive Design: 1 card per row on mobile */
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+a#links {
+  text-decoration: none;
+}
+
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-cards h3 {
+    font-size: 18px;
+  }
+
+  .service-cards p {
+    font-size: 13px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-cards {
+    padding: 12px;
+  }
+}
