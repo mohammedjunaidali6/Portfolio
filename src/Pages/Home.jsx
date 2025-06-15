@@ -29,8 +29,8 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "public/junaid-ali-cv.pdf";
-    link.setAttribute("download", "Junaid Ali CV.pdf");
+    link.href = "public/Junaid_Ali_CV.pdf";
+    link.setAttribute("download", "Junaid_Ali_CV.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
