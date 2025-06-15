@@ -37,7 +37,7 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <>
-      <section ref={ref} className="contact-container" id="contact-section">
+      <section className="contact-container" ref={ref}  >
         <div className="contact-card" data-aos="zoom-in">
           <div className="contact-info">
             <h2 className="contact-title">Get in Touch</h2>

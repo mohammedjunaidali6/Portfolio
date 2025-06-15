@@ -29,7 +29,7 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Junaid Ali CV.pdf";
+    link.href = "public/junaid-ali-cv.pdf";
     link.setAttribute("download", "Junaid Ali CV.pdf");
     document.body.appendChild(link);
     link.click();
@@ -57,11 +57,9 @@ export default function Home() {
               web projects, ranging from personal blogs to e-commerce platforms.
             </p>
             <div className="action__btns">
-              <a href="#contact-section">
-                <button className="hire__me" data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine">Contact me</button>
-              </a>
+              <button className="hire__me" data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" onClick={() => { scrollToSection(contactRef) }}>Contact me</button>
               <button className="portfolio" onClick={handleDownload} data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine">Download CV</button>
