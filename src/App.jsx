@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
@@ -6,9 +6,20 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import MyWork from './Pages/MyWork';
 import Contact from './Pages/Contact';
+import PageLoad from './pageload/PageLoad';
+import Landing from './whatsappicon/WhatsAppIcon';
+
 
 function App() {
-  return (
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return loading ? <PageLoad /> : (
     <div>
       <Router>
         <Routes>
@@ -19,8 +30,10 @@ function App() {
           <Route path="/contactme" element={<Contact />} />
         </Routes>
       </Router>
+      <Landing />
     </div>
-  )
+  );
 }
+
 
 export default App

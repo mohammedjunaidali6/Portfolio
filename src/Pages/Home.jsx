@@ -8,6 +8,7 @@ import Services from './Services';
 import Navbar from '../components/Navbar';
 import MyWork from './MyWork';
 import Contact from './Contact';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
 
@@ -46,7 +47,14 @@ export default function Home() {
           <div className="content" data-aos="fade-right">
             <p className="subtitle">HELLO</p>
             <h1 className="title">
-              I'm <span>Junaid Ali<br />a</span> Front End Developer
+              I'm <span>Junaid Ali<br />a <span className='type-animation'></span></span>
+
+              <TypeAnimation
+                sequence={['Front End Developer', 1000, 'React Developer', 1000, 'Web Developer', 1000, 'Software Engineer', 1000]}
+                speed={50}
+                repeat={Infinity}
+                style={{ fontSize: '1em', display: 'inline-block' }}
+              />
             </h1>
             <p className="description" data-aos="fade-right"
               data-aos-offset="200"

@@ -80,13 +80,13 @@ const Contact = forwardRef((props, ref) => {
               <p className="success-message">Message sent successfully! ✅</p>
             )}
             <label>Name</label>
-            <input type="text" name="name" required />
+            <input type="text" placeholder="Enter your name" name="name" required />
 
             <label>Email</label>
-            <input type="email" name="email" required />
+            <input type="email" placeholder="Enter your email " name="email" required />
 
             <label>Message</label>
-            <textarea name="message" required></textarea>
+            <textarea name="message" placeholder="Write your message"></textarea>
 
             <button type="submit">Send Message</button>
           </form>

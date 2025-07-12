@@ -75,14 +75,14 @@
   margin: 8px 0;
 }
 
-/* Responsive Design: 2 cards per row on tablets */
+
 @media (max-width: 992px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Responsive Design: 1 card per row on mobile */
+
 @media (max-width: 600px) {
   .services-grid {
     grid-template-columns: 1fr;
@@ -116,7 +116,6 @@ a#links {
   }
 }
 
-/* Mobile view */
 @media (max-width: 600px) {
   .services-grid {
     grid-template-columns: 1fr;

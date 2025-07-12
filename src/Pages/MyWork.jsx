@@ -93,10 +93,10 @@ const MyWork = forwardRef((props, ref) => {
               </p>
               <p>
                 <span style={{ color: "#61DBFB" }}>#ReactJS </span>
-                <span style={{ color: "#3178C6" }}>#ReactBootstrap </span>
+                <span style={{ color: "#3178C6" }}>#Bootstrap </span>
                 <span style={{ color: "#38BDF8" }}>#React-Redux </span>
-                <span style={{ color: "#A855F7" }}>#Nodejs </span>
-                <span style={{ color: "#F02E65" }}>#Expressjs </span>
+                <span style={{ color: "#A855F7" }}>#NodeJS </span>
+                <span style={{ color: "#F02E65" }}>#ExpressJS </span>
               </p>
             </div>
           </a>
@@ -119,9 +119,9 @@ const MyWork = forwardRef((props, ref) => {
                 with smooth animations for an engaging user experience.
               </p>
               <p>
-                <span style={{ color: "#61DBFB" }}>#React </span>
-                <span style={{ color: "#3178C6" }}>#Typescript </span>
-                <span style={{ color: "#38BDF8" }}>#Tailwindcss </span>
+                <span style={{ color: "#61DBFB" }}>#ReactJS </span>
+                <span style={{ color: "#3178C6" }}>#TReactBootsrap </span>
+                <span style={{ color: "#38BDF8" }}>#Responsive </span>
                 <span style={{ color: "#A855F7" }}>#UI-Design </span>
                 <span style={{ color: "#FF4154" }}>#React-Query</span>
               </p>
