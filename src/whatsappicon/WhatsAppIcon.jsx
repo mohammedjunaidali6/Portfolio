@@ -1,7 +1,7 @@
 import React from 'react'
 import './WhatsAppIcon.css'
 
-const Landing = () => {
+const WhatsAppIcon = () => {
     return (
         <div className="main-container">
             <a
@@ -16,4 +16,4 @@ const Landing = () => {
     );
 };
 
-export default Landing;
+export default WhatsAppIcon;

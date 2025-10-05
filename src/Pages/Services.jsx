@@ -11,7 +11,7 @@ const Services = forwardRef((props, ref) => {
   }, []);
 
   return (
-    <div className="ser" >
+    <>
       <section ref={ref} className="services">
         <div className="services-header">
           <div className="services-intro">
@@ -66,7 +66,7 @@ const Services = forwardRef((props, ref) => {
         </div>
 
       </section>
-    </div>
+    </>
   );
 });
 

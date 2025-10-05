@@ -4,7 +4,6 @@
   padding: 10px 20px;
   text-align: center;
 }
-
 /* Header Section */
 .services-header1 {
   text-align: center;
@@ -40,7 +39,7 @@
 
 /* Service Cards */
 .service-cards {
-  background: #fff;
+  background-color: #161515;
   border-radius: 10px;
   padding: 16px;
   transition: transform 0.3s ease;
@@ -67,14 +66,18 @@
 .service-cards h3 {
   font-size: 20px;
   margin-top: 12px;
+  background-color: #161515;
 }
 
 .service-cards p {
   font-size: 14px;
   line-height: 1.6;
   margin: 8px 0;
+  background-color: #161515;
 }
-
+span {
+  background-color: #161515;
+}
 
 @media (max-width: 992px) {
   .services-grid {
@@ -123,5 +126,87 @@ a#links {
 
   .service-cards {
     padding: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-track {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  overflow: hidden;
+  flex-wrap: wrap; /* fallback for small screens */
+  transition: transform 0.5s ease-in-out;
+}
+
+.service-cards {
+  flex: 1 1 240px;
+  max-width: 340px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #161515;
+  text-decoration: none;
+}
+
+.service-cards:hover {
+  transform: scale(1.03);
+}
+
+.service-icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.scroll-buttons button {
+  background-color: #3178C6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-buttons button:hover {
+  background-color: #255ea8;
+}
+
+/* 📱 Responsive Tweaks */
+@media (max-width: 768px) {
+  .carousel-track {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-cards {
+    max-width: 90%;
   }
 }

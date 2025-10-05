@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffffff;
+  background-color: black;
   padding: 15px 90px;
   color: #fff;
   position: fixed;
@@ -112,21 +112,21 @@ a#logo:hover {
     display: none;
   }
 
+  .navbar-links li a {
+    background-color: #1f2c3d;
+  }
+
   .navbar-links.active {
     display: flex;
+    position: absolute;
+    right: 3px;
+  }
+
+  ul li :Link {
+    background-color: #1f2c3d;
   }
 
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #ffffff;
     padding: 15px 30px;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
-
 }

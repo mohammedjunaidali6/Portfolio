@@ -7,7 +7,8 @@ import Services from './Pages/Services';
 import MyWork from './Pages/MyWork';
 import Contact from './Pages/Contact';
 import PageLoad from './pageload/PageLoad';
-import Landing from './whatsappicon/WhatsAppIcon';
+import WhatsAppIcon from './whatsappicon/WhatsAppIcon';
+
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
           <Route path="/contactme" element={<Contact />} />
         </Routes>
       </Router>
-      <Landing />
+      <WhatsAppIcon />
     </div>
   );
 }

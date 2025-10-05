@@ -1,0 +1,46 @@
+/* SplineViewer.css */
+/* .robot-3d {
+   display: flex;
+   top: 0;
+   right: -20%;
+ }
+  */
+ 
+
+
+  /* SplineViewer.css */
+.robot-3d {
+   display: flex;
+   top: 0;
+   right: -20%;
+   position: absolute;
+   bottom: 0; 
+ }
+ 
+ 
+ /* @media only screen and (max-width: 600px) {
+   .robot-3d {
+     height: 50vh;
+   }
+ }
+ 
+
+ @media only screen and (min-width: 601px) and (max-width: 900px) {
+   .robot-3d {
+     height: 70vh;
+   }
+ }
+ 
+ 
+ @media only screen and (min-width: 901px) {
+   .robot-3d {
+     height: 100vh;
+   }
+ }
+
+ @media (width : 768px) {
+   .robot-3d {
+      height: 100vh;
+    }
+
+ } */

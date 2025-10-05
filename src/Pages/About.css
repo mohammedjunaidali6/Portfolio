@@ -1,4 +1,12 @@
-/* About me */
+p.aos-init.aos-animate {
+  color: #afabab;
+}
+
+.about-image.aos-init.aos-animate {
+  display: flex;
+  position: relative;
+  left: 18px;
+}
 
 .about-container {
   width: 100%;
@@ -6,6 +14,7 @@
   margin: 0 auto;
   padding: 121px 20px;
   text-align: center;
+  background-color: black;
 }
 
 .about-heading {
@@ -20,12 +29,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 80px;
 }
 
-.about-image {
-  flex: 1;
-}
 
 .about-image img {
   width: 100%;
@@ -34,9 +40,28 @@
   border-radius: 10px;
 }
 
+.about-image {
+  background-color: #1b0d2f;
+  width: 200px;
+  height: 250px;
+  border-radius: 50% / 40%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.about-image img {
+  width: 166%;
+  height: auto;
+  object-fit: cover;
+}
+
 .about-text {
   flex: 1;
   text-align: left;
+  color: #afabab;
 }
 
 .about-text p {
@@ -51,12 +76,14 @@
   .about-content {
     flex-direction: column;
     text-align: center;
+
   }
 
   .about-text {
     text-align: center;
   }
 }
+
 /* Education & Experience */
 
 .container {
@@ -66,11 +93,12 @@
   max-width: 1200px;
   position: relative;
   bottom: 70px;
+  background-color: black;
 }
 
 .column {
   width: 48%;
-  background: #f9f9f9;
+  background-color: black;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -106,7 +134,7 @@
 .date {
   font-weight: bold;
   font-size: 1rem;
-  color: #555;
+  color: #A9A9A9;
 }
 
 h3 {
@@ -118,7 +146,7 @@ h3 {
 
 p {
   font-size: 1rem;
-  color: #1f2937;
+  color: #afabab;
 }
 
 /* Responsive Design */
@@ -126,17 +154,19 @@ p {
   .container {
     flex-direction: column;
     align-items: center;
+
   }
 
   .column {
     width: 100%;
     margin-bottom: 20px;
+
   }
 }
 
 .skills-container {
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: black;
   padding: 20px;
   color: black;
   overflow: hidden;
@@ -219,15 +249,6 @@ p {
     bottom: 24px;
   }
 
-  .about-image img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 10px;
-    position: relative;
-    bottom: 22px;
-  }
-
   .about-text p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -274,13 +295,8 @@ p {
     bottom: 24px;
   }
 
-  .about-image img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 10px;
-    position: relative;
-    bottom: 22px;
+  .about-image {
+    margin-right: 38px;
   }
 
   .about-text p {
@@ -299,7 +315,7 @@ p {
 
   .skills-container {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: black;
     padding: 20px;
     color: black;
     overflow: hidden;
@@ -320,7 +336,6 @@ div#aboutpage {
 }
 
 
-
 @media (width : 1024px) {
   .about-content {
     position: relative;
@@ -336,9 +351,7 @@ div#aboutpage {
     position: relative;
     left: 38px;
   }
-
 }
-
 
 
 .tech-stack-container {
@@ -346,6 +359,7 @@ div#aboutpage {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  background-color: black;
 }
 
 .tech-row {

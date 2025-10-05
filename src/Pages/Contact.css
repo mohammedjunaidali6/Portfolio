@@ -4,6 +4,7 @@
     align-items: center;
     padding: 50px;
     min-height: 100vh;
+    background-color: black;
   }
 
   .success-message {
@@ -22,23 +23,26 @@
     gap: 30px;
     position: relative;
     top: 48px;
+    
   }
   
   .contact-info {
     flex: 1;
     text-align: center;
+    background-color: #161515;
   }
   
   .contact-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: #c7bfd1;
+    background-color: #161515;
   }
   
   .contact-description {
     font-size: 1rem;
-    color: var(--text-light);
     margin-bottom: 20px;
+    background-color: #161515;
   }
   
   .social-icons {
@@ -46,11 +50,22 @@
     justify-content: center;
     gap: 15px;
     font-size: 1.8rem;
+    background-color: #161515;
+    
   }
+
+  a.icon.github {
+    background-color: #161515;
+}
+
+.contact-card.aos-init.aos-animate {
+  background-color: #161515;
+}
   
   .icon {
     color: #7363a3;
     transition: transform 0.3s ease, color 0.3s ease;
+    background-color: #161515;
   }
   
   .icon:hover {
@@ -71,22 +86,26 @@
   
   .contact-form {
     flex: 1;
+    background-color: #161515;
   }
-  
-  .contact-form label {
+
+   .contact-form label {
     display: block;
     font-weight: bold;
     margin-top: 10px;
-  }
-  
+    background-color: #161515;
+    color: #c7bfd1;
+}
   .contact-form input,
   .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 2px solid #ccc;
+    border: 2px solid #393333;;
     border-radius: 5px;
     font-size: 1rem;
+    background-color: #161515;
+    color: aliceblue;
   }
 
   .contact-form input:focus{
@@ -130,11 +149,27 @@
    @media (max-width: 375px) {
    .contact-container{
     padding: 0px;
+    
    }
   }
 
   @media (max-width: 425px) {
    .contact-container{
     padding: 0px;
+    background-color: black;
+        padding-bottom: 47px;
    }
   }
+
+  h3.form-title {
+    background-color: #161515;
+}
+
+.contact-card.aos-init.aos-animate {
+  background-color: #161515;
+}
+
+img, svg {
+  vertical-align: middle;
+  background-color: transparent;
+}

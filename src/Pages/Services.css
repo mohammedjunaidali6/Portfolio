@@ -5,6 +5,9 @@
   text-align: center;
 }
 
+.ser{
+  background-color: black;
+}
 /* Header Section */
 .services-header {
   text-align: center;
@@ -14,6 +17,10 @@
 .services-header h2 {
   font-size: 2rem;
   font-weight: bold;
+}
+
+p.aos-init.aos-animate {
+  color: #c7bfd1;
 }
 
 .services-intro h3 {
@@ -40,7 +47,6 @@
 
 /* Service Cards */
 .service-card {
-  background: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,10 +70,10 @@
   margin-bottom: 10px;
 }
 
-/* Service Description */
+
 .service-card p {
   font-size: 1rem;
-  color: #666;
+  color: #afabab;
 }
 
 /* Responsive Design: 2 cards per row on tablets */
