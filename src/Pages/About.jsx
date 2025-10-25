@@ -35,8 +35,9 @@ const About = forwardRef((props, ref) => {
           >
             About Me
           </h2>
+          <div className="about-content-wrapper">
           <div className="about-content">
-            <div className="about-image" data-aos="fade-right">
+            <div className="about-image" data-aos="zoom-in">
               <img src={junaid} alt="About Me" />
             </div>
             <div className="about-text" data-aos="fade-left">
@@ -65,6 +66,7 @@ const About = forwardRef((props, ref) => {
                 platforms and setting up CI/CD pipelines using GitHub Actions.
               </p>
             </div>
+          </div>
           </div>
         </div>
       </section>

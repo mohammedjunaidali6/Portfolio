@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import './SplineViewer.css';
 
+
 const SplineViewer = () => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -25,6 +26,10 @@ const SplineViewer = () => {
       clearTimeout(timeoutId);
     };
   }, []);
+
+    useEffect(() => {
+      AOS.init({ duration: 1000, once: true });
+    }, []);
 
   return (
     <spline-viewer

@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Online Shopping Platform",
     image: Shopping,
-    link: "https://online-shopping-platform.vercel.app/",
+    link: "https://github.com/mohammedjunaidali6/Online_Shopping_Platform",
     description:
       "Full-stack shopping platform with secure checkout, cart management, and product browsing.",
     tags: ["#ReactJS", "#Bootstrap", "#Axios", "#React #Redux", "#Query"],
@@ -22,28 +22,28 @@ const projects = [
   {
     title: "InfoHRM",
     image: infoHRM,
-    link: "https://info-hrm.vercel.app/",
+    link: "https://github.com/mohammedjunaidali6/InfoHRM",
     description: "Setup wizard for HRM Starter v5.3 with React hooks and clean UI.",
     tags: ["#ReactJS", "#Bootstrap", "#Redux", "#NodeJS"],
   },
   {
     title: "Gen AI Chatbot",
     image: infoGen,
-    link: "https://gen-ai-chatbot-steel.vercel.app/",
+    link: "https://github.com/mohammedjunaidali6/GenAiChatbot",
     description: "AI-powered chatbot landing page with smooth animations and responsive design.",
     tags: ["#ReactJS", "#Bootstrap", "#Responsive",],
   },
   {
     title: "Mern_Auth",
     image: Auth,
-    link: "https://mern-app-ui-two.vercel.app/login",
+    link: "https://github.com/mohammedjunaidali6/Mern_App",
     description: "Authentication systems to ensure secure user access and robust identity management.",
     tags: ["#ReactJS", "#NodeJS", "#Express", "#MongoDB"],
   },
   {
     title: "Sales_Analytics_System",
     image: Sale,
-    link: "https://sales-analytics-system-amber.vercel.app/",
+    link: "https://github.com/mohammedjunaidali6/Sales_Analytics_System",
     description: "Sales Analytics System built to track performance, visualize trends, and support data-driven decisions.",
     tags: ["#React", "#TypeScript", "#TailwindCSS"],
   },

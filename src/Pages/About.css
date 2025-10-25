@@ -8,6 +8,10 @@ p.aos-init.aos-animate {
   left: 18px;
 }
 
+* {
+  outline: none !important;
+}
+
 .about-container {
   width: 100%;
   max-width: 1200px;
@@ -15,6 +19,7 @@ p.aos-init.aos-animate {
   padding: 121px 20px;
   text-align: center;
   background-color: black;
+  box-sizing: border-box;
 }
 
 .about-heading {
@@ -38,6 +43,11 @@ p.aos-init.aos-animate {
   max-width: 500px;
   height: auto;
   border-radius: 10px;
+}
+
+.about-content-wrapper {
+  overflow: hidden;
+  width: 100%;
 }
 
 .about-image {

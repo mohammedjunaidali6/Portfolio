@@ -1,0 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+html, body, #root {
+	overflow-x: hidden !important;
+	scrollbar-width: none; 
+	-ms-overflow-style: none; 
+}
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+	height: 0px;
+}
+
+html::-webkit-scrollbar:vertical,
+body::-webkit-scrollbar:vertical,
+#root::-webkit-scrollbar:vertical {
+	width: 12px;
+}
+

@@ -52,6 +52,7 @@ export default function Home() {
       <section ref={homeRef} className="section">
         <div className="section__container" id="home">
           <div className="content" data-aos="fade-right">
+            <div className="homescreen">
             <p className="subtitle">HELLO</p>
             <h1 className="title">
               I'm{" "}
@@ -93,6 +94,7 @@ export default function Home() {
               >
                 Download CV
               </button>
+              </div>
             </div>
           </div>
           <div className="image">

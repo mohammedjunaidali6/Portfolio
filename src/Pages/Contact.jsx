@@ -1,5 +1,6 @@
 import { useState, useEffect, forwardRef } from "react";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import "./Contact.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -68,7 +69,7 @@ const Contact = forwardRef((props, ref) => {
                 rel="noopener noreferrer"
                 className="icon twitter"
               >
-                <FaTwitter />
+                <FaXTwitter />
               </a>
             </div>
           </div>
